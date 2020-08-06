@@ -1,0 +1,13 @@
+dubbo:
+  application:
+    name: product-consumer
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    name: dubbo
+    port: 20880
+  consumer:
+    version: 1.0.0
+    group: test1
+
+
