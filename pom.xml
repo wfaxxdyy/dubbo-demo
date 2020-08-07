@@ -18,6 +18,8 @@
         <module>dubbo-consumer</module>
         <module>dubbo-provider</module>
         <module>dubbo-api</module>
+        <module>demo-spring-boot-starter</module>
+        <module>test-demo-starter</module>
     </modules>
 
     <properties>

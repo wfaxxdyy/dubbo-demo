@@ -13,7 +13,7 @@ import java.util.List;
 @RequestMapping("/get")
 public class UserController {
 
-    @Reference(timeout = 1000,check = true,generic = false,version = "1.2")
+    @Reference(timeout = 1000,check = true,generic = false)
     private IUserService userService;
 
 

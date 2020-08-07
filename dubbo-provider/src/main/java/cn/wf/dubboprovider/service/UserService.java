@@ -13,7 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@Service(version = "1.2",retries = 1)
+@Service(retries = 1,token = "true")
 public class UserService  implements IUserService {
 
     @Autowired

@@ -6,21 +6,14 @@ dubbo:
   registry:
     address: zookeeper://127.0.0.1:2181
     check: true
-    version:
   protocol:
     name: dubbo
     port: 20883
     dispatcher: all
     threadpool: fixed
     threads: 200
-
   provider:
-    version: 1.0.0
-    group: test1
     timeout: 3000
-    delay: 100
-    retries: 2
-    connections: 100
     loadbalance: random
     owner: wf
     register: true
